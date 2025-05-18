@@ -11,7 +11,7 @@ california = fetch_california_housing()
 
 df = pd.DataFrame(california.data, columns=california.feature_names)
 y = california.target
-print(y)
+
 
 X = df[["MedInc"]].values
 
